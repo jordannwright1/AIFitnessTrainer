@@ -86,9 +86,6 @@ const HomePage = () => {
 
                 {/* SCAN LINE */}
                 <div className="absolute inset-0 bg-[linear-gradient(transparent_0%,transparent_calc(50%-1px),var(--cyber-glow-primary)_50%,transparent_calc(50%+1px),transparent_100%)] bg-[length:100%_8px] animate-scanline pointer-events-none" />
-
-                {/* TERMINAL OVERLAY */}
-                <TerminalOverlay />
               </div>
             </div>
           </div>
