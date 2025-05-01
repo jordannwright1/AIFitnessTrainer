@@ -102,7 +102,7 @@ function validateDietPlan(plan: any) {
 }
 
 http.route({
-  path:'vapi/generate-program',
+  path:'/vapi/generate-program',
   method:"POST",
   handler: httpAction(async (ctx, request) => {
     try {
@@ -121,7 +121,7 @@ http.route({
       } = payload
 
       const model = genAI.getGenerativeModel({
-        model: 'gemini-2.0.flash-001',
+        model: 'gemini-2.0-flash',
         generationConfig: {
           temperature: 0.4, //lower temp for more predictable outputs
           topP: 0.9,

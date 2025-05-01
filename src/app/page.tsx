@@ -1,8 +1,5 @@
-import { SignedIn, SignedOut, SignInButton, SignOutButton } from '@clerk/nextjs'
 import React from 'react'
 import { Button } from '@/components/ui/button'
-import { ArrowRightIcon, Link } from 'lucide-react'
-import TerminalOverlay from '@/components/TerminalOverlay'
 import UserPrograms from '@/components/UserPrograms'
 
 const HomePage = () => {
